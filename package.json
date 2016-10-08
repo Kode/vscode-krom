@@ -1,0 +1,33 @@
+{
+	"name": "krom",
+	"displayName": "Krom",
+	"description": "Krom support",
+	"version": "0.0.1",
+	"publisher": "ktx",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
+		"configuration": {
+            "type": "object",
+            "title": "Krom configuration",
+            "properties": {
+                "krom.kromPath": {
+					"type": "string",
+					"default": "",
+					"description": "Points to a Krom directory."
+                }
+            }
+        }
+	},
+	"devDependencies": {
+		"vscode": "0.10.x"
+	}
+}
