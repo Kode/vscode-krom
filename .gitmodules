@@ -1,0 +1,4 @@
+[submodule "Krom"]
+	path = Krom
+	url = ../Krom_bin
+	branch = master
