@@ -17,6 +17,12 @@ function findKrom() {
 exports.activate = function (context) {
 	channel = vscode.window.createOutputChannel('Krom');
 
+	let disposable = vscode.commands.registerCommand('krom.findKrom', function () {
+		return findKrom();
+	});
+
+	context.subscriptions.push(disposable);
+
 	let api = {
 		findKrom: findKrom
 	};
