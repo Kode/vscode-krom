@@ -3,7 +3,7 @@
 	"displayName": "Krom",
 	"description": "Krom support",
 	"version": "0.0.1",
-	"publisher": "ktx",
+	"publisher": "robdangerous",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
@@ -29,5 +29,6 @@
 	},
 	"devDependencies": {
 		"vscode": "0.10.x"
-	}
+	},
+	"repository": "https://github.com/Kode/vscode-krom"
 }
