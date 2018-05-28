@@ -2,10 +2,10 @@
 	"name": "krom",
 	"displayName": "Krom",
 	"description": "Krom support",
-	"version": "17.9.1",
+	"version": "18.5.0",
 	"publisher": "kodetech",
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "^1.23.0"
 	},
 	"categories": [
 		"Other"
@@ -16,19 +16,30 @@
 	"main": "./extension",
 	"contributes": {
 		"configuration": {
-            "type": "object",
-            "title": "Krom configuration",
-            "properties": {
-                "krom.kromPath": {
+			"type": "object",
+			"title": "Krom configuration",
+			"properties": {
+				"krom.kromPath": {
 					"type": "string",
 					"default": "",
 					"description": "Points to a Krom directory."
-                }
-            }
-        }
+				}
+			}
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kode/vscode-krom"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
 	},
 	"devDependencies": {
-		"vscode": "0.10.x"
-	},
-	"repository": "https://github.com/Kode/vscode-krom"
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6",
+		"eslint": "^4.11.0",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	}
 }
