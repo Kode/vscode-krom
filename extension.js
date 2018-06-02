@@ -11,7 +11,7 @@ function findKrom() {
 	if (fs.existsSync(localkrompath)) return localkrompath;
 	let krompath = vscode.workspace.getConfiguration('krom').kromPath;
 	if (krompath.length > 0) return krompath;
-	return path.join(vscode.extensions.getExtension('ktx.krom').extensionPath, 'Krom');
+	return path.join(vscode.extensions.getExtension('kodetech.krom').extensionPath, 'Krom');
 }
 
 exports.activate = function (context) {
