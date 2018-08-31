@@ -1,3 +1,7 @@
+### 18.8.2
+
+Add Chakra-based Krom for Linux
+
 ### 18.8.1
 
 Add Chakra-based Metal Krom for macOS
