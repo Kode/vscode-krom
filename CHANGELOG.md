@@ -1,3 +1,7 @@
+### 18.8.4
+
+Update Windows and Linux binaries
+
 ### 18.8.3
 
 Update Linux binary to make it work
