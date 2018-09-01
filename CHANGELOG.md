@@ -1,3 +1,7 @@
+### 18.8.3
+
+Update Linux binary to make it work
+
 ### 18.8.2
 
 Add Chakra-based Krom for Linux
