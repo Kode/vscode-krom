@@ -1,3 +1,7 @@
+### 18.11.0
+
+Update all binaries
+
 ### 18.8.4
 
 Update Windows and Linux binaries
