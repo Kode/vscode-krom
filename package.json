@@ -22,7 +22,7 @@
 				"krom.kromPath": {
 					"type": "string",
 					"default": "",
-					"description": "Points to a Krom directory."
+					"description": "Points to a directory containing the Krom executable."
 				}
 			}
 		}
