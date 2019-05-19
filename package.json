@@ -17,7 +17,7 @@
 	"contributes": {
 		"configuration": {
 			"type": "object",
-			"title": "Krom configuration",
+			"title": "Krom",
 			"properties": {
 				"krom.kromPath": {
 					"type": "string",
