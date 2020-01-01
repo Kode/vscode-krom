@@ -1,3 +1,7 @@
+### 20.1.0
+
+Update all binaries
+
 ### 18.11.1
 
 Update all binaries again
