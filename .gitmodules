@@ -1,4 +1,4 @@
 [submodule "Krom"]
 	path = Krom
 	url = https://github.com/Kode/Krom_bin.git
-	branch = master
+	branch = main

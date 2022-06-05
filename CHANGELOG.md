@@ -1,6 +1,6 @@
 ### 22.6.0
 
-Add a license text
+Add a license text and update binaries
 
 ### 20.1.0
 
