@@ -1,3 +1,7 @@
+### 22.6.0
+
+Add a license text
+
 ### 20.1.0
 
 Update all binaries
